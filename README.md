@@ -63,6 +63,7 @@ I created this repository to:
 - Logic Building
 - LeetCode Practice
 - DSA Basics in Python
+- Problem Solving Using OOPs 
 
 ### 🚀 Mini Projects
 - Calculator
