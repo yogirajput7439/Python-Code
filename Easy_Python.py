@@ -17,3 +17,15 @@ print("Array Shape : ", arr.shape)
 print("Dimentions : ", arr.ndim)
 print("Size : ", arr.size)
 print("Data Types : ", arr.dtypes)
+
+# 3. Special Array 
+
+zeros = np.zeros((2, 3))
+print(zeros)
+
+ones = np.ones((2, 2))
+print(ones)
+
+identity = np.eye(3)
+print(identity)
+
