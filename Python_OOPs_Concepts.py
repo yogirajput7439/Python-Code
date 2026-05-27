@@ -16,3 +16,18 @@ print(s1.name) #Output --> Yogesh Rajput
 
 # __init__ Constructor in 
 
+class Student:
+  def __init__(self):
+    print("Init Constructor callinng")
+
+# What is Self 
+
+class Student:
+  def __init__(self, name):
+    self.name = name
+
+s1 = Student("Yogesh")
+
+print(s1.name) 
+# Output --> Yogesh
+
