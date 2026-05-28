@@ -29,3 +29,34 @@ print(ones)
 identity = np.eye(3)
 print(identity)
 
+# 4. Arrange & LinSpace
+
+a = np.arrange(1, 11)
+print("Arrange : ", a)
+
+b = np.linspace(0, 10, 5)
+print("LinSpace : ", b)
+
+# 5. Random Values 
+
+np.random.seed(42)
+
+rand1 = np.random.rand(3, 3)
+print(rand1)
+
+rand2 = np.random.randint(1, 100, (3, 3))
+print(rand2)
+
+# 6. RESHAPE & FLATTEN
+
+
+
+
+
+
+
+
+
+
+
+
