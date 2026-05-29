@@ -49,6 +49,17 @@ print(rand2)
 
 # 6. RESHAPE & FLATTEN
 
+arr = np.arrange(1, 13)
+
+reshaped = np.reshape(3, 4)
+
+print(reshaped)
+print(reshaped.flatten())
+
+# INDEXING & SLICING
+
+
+
 
 
 
