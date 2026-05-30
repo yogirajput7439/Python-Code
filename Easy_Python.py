@@ -56,9 +56,16 @@ reshaped = np.reshape(3, 4)
 print(reshaped)
 print(reshaped.flatten())
 
-# INDEXING & SLICING
+#7. INDEXING & SLICING
 
+print("First Element :", arr[0])
+print("Second Element : ", arr[1])
+print("Last Element : ", arr[-1])
 
+print("Slice : ", arr1[1:4]) # Output -> second to the elements 
+print("2D Array :", arr2[2, 4]) 
+
+# 8. ARRAY OPERATIONS
 
 
 
