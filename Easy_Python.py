@@ -67,7 +67,15 @@ print("2D Array :", arr2[2, 4])
 
 # 8. ARRAY OPERATIONS
 
+x = np.array([1, 2, 3])
+y = np.array([4, 5, 6])
 
+print("Addition : ", x + y)
+print("Substraction : ", x - y)
+print("Multiplication : ", x*y)
+print("Division :", x / y)
+
+9. BRODCASTING
 
 
 
