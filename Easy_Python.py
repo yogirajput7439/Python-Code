@@ -75,9 +75,11 @@ print("Substraction : ", x - y)
 print("Multiplication : ", x*y)
 print("Division :", x / y)
 
-9. BRODCASTING
+# 9. BRODCASTING
 
+print( x + 10)
 
+# 10 STASTICAL FUNCTIONS  
 
 
 
