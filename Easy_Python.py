@@ -81,7 +81,7 @@ print( x + 10)
 
 # 10 STASTICAL FUNCTIONS  
 
-
+print(X.shape)
 
 
 
