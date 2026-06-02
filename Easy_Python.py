@@ -83,6 +83,15 @@ print( x + 10)
 
 print(X.shape)
 
+print("Sum:", np.sum(nums))
+print("Mean:", np.mean(nums))
+print("Median:", np.median(nums))
+print("Max:", np.max(nums))
+print("Min:", np.min(nums))
+print("Standard Deviation:", np.std(nums))
+
+
+#. 11 
 
 
 
