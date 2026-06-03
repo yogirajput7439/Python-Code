@@ -91,7 +91,21 @@ print("Min:", np.min(nums))
 print("Standard Deviation:", np.std(nums))
 
 
-#. 11 
+#. 11 AXIS CONCEPT
+
+print("\n===== AXIS CONCEPT =====")
+
+matrix = np.array([
+    [1, 2, 3],
+    [4, 5, 6]
+])
+
+print("\nColumn Wise Sum (axis=0):")
+print(matrix.sum(axis=0))
+
+print("\nRow Wise Sum (axis=1):")
+print(matrix.sum(axis=1))
+
 
 
 
