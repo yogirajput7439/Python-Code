@@ -106,7 +106,18 @@ print(matrix.sum(axis=0))
 print("\nRow Wise Sum (axis=1):")
 print(matrix.sum(axis=1))
 
+# 12 . BOOLIEAN MASKING 
 
+print("\n===== BOOLEAN MASKING =====")
+
+arr = np.array([1, 2, 3, 4, 5, 6])
+
+print(arr > 3)
+
+print("Filtered Values:")
+print(arr[arr > 3])
+
+# 13. 
 
 
 
