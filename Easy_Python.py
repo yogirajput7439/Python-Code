@@ -117,8 +117,22 @@ print(arr > 3)
 print("Filtered Values:")
 print(arr[arr > 3])
 
-# 13. 
+# 13. COPY VS VIEW
 
+original = np.array([1, 2, 3])
 
+view_arr = original.view()
+view_arr[0] = 100
+
+print("Original after View Change:")
+print(original)
+
+original2 = np.array([1, 2, 3])
+
+copy_arr = original2.copy()
+copy_arr[0] = 999
+
+print("Original after Copy Change:")
+print(original2)
 
 
