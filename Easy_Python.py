@@ -135,4 +135,13 @@ copy_arr[0] = 999
 print("Original after Copy Change:")
 print(original2)
 
+# 14. SORTING & UNIQUE
+
+arr = np.array([5, 2, 8, 1, 2, 5])
+
+print("Sorted Array:")
+print(np.sort(arr))
+
+print("Unique Values:")
+print(np.unique(arr))
 
