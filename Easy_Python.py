@@ -145,3 +145,16 @@ print(np.sort(arr))
 print("Unique Values:")
 print(np.unique(arr))
 
+# 15. STACKING & CONCATENATE
+
+a = np.array([1, 2])
+b = np.array([3, 4])
+
+print("\nVertical Stack:")
+print(np.vstack((a, b)))
+
+print("\nHorizontal Stack:")
+print(np.hstack((a, b)))
+
+print("\nConcatenate:")
+print(np.concatenate((a, b)))
