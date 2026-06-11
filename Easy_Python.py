@@ -173,3 +173,8 @@ m2 = np.array([
 
 print(np.dot(m1, m2))
 
+# 17.  TRANSPOSE
+
+print(m1.T)
+
+# 18. 
