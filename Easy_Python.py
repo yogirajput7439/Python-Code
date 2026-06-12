@@ -178,3 +178,13 @@ print(np.dot(m1, m2))
 print(m1.T)
 
 # 18. 
+# 18. 
+arr = np.array([1, 2, np.nan, 4])
+
+print("NaN Check:")
+print(np.isnan(arr))
+
+arr[np.isnan(arr)] = 0
+
+print("After Replacing NaN:")
+print(arr)
