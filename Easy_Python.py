@@ -185,6 +185,15 @@ print("NaN Check:")
 print(np.isnan(arr))
 
 arr[np.isnan(arr)] = 0
+# 19... 
 
 print("After Replacing NaN:")
 print(arr)
+numbers = np.array([10, 15, 20, 25, 30])
+
+result = np.where(numbers > 20, "High", "Low")
+
+print(result)
+
+
+
