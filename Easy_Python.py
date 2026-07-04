@@ -197,4 +197,5 @@ result = np.where(numbers > 20, "High", "Low")
 print(result)
 
 
+# python is an easy language when i will practice every day
 
