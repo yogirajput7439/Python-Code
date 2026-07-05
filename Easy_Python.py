@@ -196,6 +196,13 @@ result = np.where(numbers > 20, "High", "Low")
 
 print(result)
 
+# 20 ITERATING ARRAY
 
-# python is an easy language when i will practice every day
+print("\n===== SAVE & LOAD =====")
 
+np.save("my_array.npy", arr1)
+
+loaded = np.load("my_array.npy")
+
+print("Loaded Array:")
+print(loaded)
