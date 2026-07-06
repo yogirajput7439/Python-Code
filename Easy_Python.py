@@ -198,6 +198,10 @@ print(result)
 
 # 20 ITERATING ARRAY
 
+
+
+# SAVE AND ITERATING ARRAY 
+
 print("\n===== SAVE & LOAD =====")
 
 np.save("my_array.npy", arr1)
