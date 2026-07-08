@@ -198,9 +198,9 @@ print(result)
 
 # 20 ITERATING ARRAY
 
+print(num)
 
-
-# SAVE AND ITERATING ARRAY 
+# 21 SAVE AND ITERATING ARRAY 
 
 print("\n===== SAVE & LOAD =====")
 
