@@ -198,7 +198,8 @@ print(result)
 
 # 20 ITERATING ARRAY
 
-print(num)
+for value in arr1:
+    print(value)
 
 # 21 SAVE AND ITERATING ARRAY 
 
