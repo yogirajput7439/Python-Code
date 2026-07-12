@@ -211,3 +211,5 @@ loaded = np.load("my_array.npy")
 
 print("Loaded Array:")
 print(loaded)
+
+# 22 Loops 
