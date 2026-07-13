@@ -1,3 +1,5 @@
+# Functions in python 
+
 def get_min(nums):
     """Return the minimum value from the list, or None for empty list."""
     if not nums:
