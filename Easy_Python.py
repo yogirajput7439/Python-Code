@@ -212,4 +212,8 @@ loaded = np.load("my_array.npy")
 print("Loaded Array:")
 print(loaded)
 
-# 22 Loops 
+# 22 FIND MISSING VALUES
+
+arr = np.array([1,2,np.nan,4])
+
+print(np.isnan(arr))
