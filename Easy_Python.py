@@ -212,8 +212,15 @@ loaded = np.load("my_array.npy")
 print("Loaded Array:")
 print(loaded)
 
-# 22 FIND MISSING VALUES
+# 22 REAL MACHINE LEARNING STYLE EXAMPLE
 
-arr = np.array([1,2,np.nan,4])
+data = np.array([
+    [22, 50000],
+    [25, 60000],
+    [30, 80000],
+    [35, 90000]
+])
 
-print(np.isnan(arr))
+print("\nDataset:")
+print(data)
+
